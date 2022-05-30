@@ -1,0 +1,20 @@
+.searchResultBlock {
+  display: block;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border: 1px solid #cccccc;
+}
+
+.searchResultBlockImage {
+  display: inline-block;
+  width: 100px;
+  margin: 15px;
+  border-right: 1px solid #cccccc;
+}
+
+.searchResultBlockDetails {
+  display: inline-block;
+  width: 80%;
+}

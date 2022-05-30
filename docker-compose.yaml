@@ -1,0 +1,15 @@
+version: '3.8'
+services:
+  pokemon-backend:
+    image: pokemon-app-backend:local
+    restart: always
+    ports:
+      - 5000:5000
+      
+  pokemon-frontend:
+    build:
+      context: .
+    image: pokemon-app-ui:local
+    restart: always
+    ports:
+      - 3000:80

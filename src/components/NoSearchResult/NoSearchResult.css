@@ -1,0 +1,12 @@
+.noSearchResultBlock {
+  display: block;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  height: 75px;
+  text-align: center;
+  color: #cccccc;
+  font-weight: 600;
+  font-size: x-large;
+}

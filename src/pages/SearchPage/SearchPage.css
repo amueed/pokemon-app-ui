@@ -1,0 +1,9 @@
+.searchBox {
+  margin: 25px auto;
+  text-align: center;
+}
+
+.searchBox > img {
+  margin: 0 auto;
+  display: block;
+}
